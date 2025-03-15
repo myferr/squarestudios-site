@@ -86,7 +86,7 @@ export default function Home() {
                     className="flex gap-2"
                   >
                     GitHub
-                    <LinkrrowUpRightFromSquareIcon className="size-4 relative top-1" />
+                    <ArrowUpRightFromSquareIcon className="size-4 relative top-1" />
                   </Link>
                 </button>
               </div>
