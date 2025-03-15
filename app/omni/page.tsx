@@ -5,6 +5,7 @@ import Image from "next/image";
 import { FloatingFeatures } from "@/components/RotatingFeatures";
 import GuildedLogoSrc from "@/public/Guilded Logomark White.png";
 import { ArrowUpRightFromSquareIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
