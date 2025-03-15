@@ -28,15 +28,15 @@ export default function Home() {
           </div>
 
           <div className="md:flex items-center gap-8 text-gray-300 bg-slate-800/50 px-6 py-4 rounded-lg">
-            <a
+            <Link
               href="/omni/commands"
               className="hover:text-white hover:cursor-pointer transition"
             >
               Commands
-            </a>
-            <a href="/omni/status" className="hover:text-white transition">
+            </Link>
+            <Link href="/omni/status" className="hover:text-white transition">
               Status
-            </a>
+            </Link>
           </div>
 
           <button
@@ -62,7 +62,7 @@ export default function Home() {
                 <span className="bg-gradient-to-br from-slate-50 to-teal-100 text-transparent bg-clip-text">
                   omni
                 </span>{" "}
-                <span className="text-white">is Guilded's</span> <br />
+                <span className="text-white">is Guildeds</span> <br />
                 <span className="text-white">premier </span>
                 <span className="bg-gradient-to-l from-teal-200 via-slate-50 to-teal-200 text-transparent bg-clip-text font-medium">
                   moderation
@@ -71,22 +71,22 @@ export default function Home() {
               </h1>
               <p className="text-gray-300 text-lg md:text-xl mb-8">
                 Meet the best moderation bot on Guilded.gg, keeping your
-                communities safe and rules in place. With Omni, it's easy to
+                communities safe and rules in place. With Omni, it is easy to
                 enforce rules and authority.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button className="bg-gray-800 text-white hover:bg-gray-700 px-6 py-2 flex items-center gap-2 rounded-lg">
-                  <a href="https://guilded.gg/square">Support</a>
+                  <Link href="https://guilded.gg/square">Support</Link>
                 </button>
                 <button className="bg-[#6b8f9b] hover:bg-[#5a7a85] px-6 py-2 rounded-lg text-white">
-                  <a
+                  <Link
                     href="https://github.com/Square-Studios/omni"
                     target="_blank"
                     className="flex gap-2"
                   >
                     GitHub
-                    <ArrowUpRightFromSquareIcon className="size-4 relative top-1" />
-                  </a>
+                    <LinkrrowUpRightFromSquareIcon className="size-4 relative top-1" />
+                  </Link>
                 </button>
               </div>
             </div>
