@@ -43,7 +43,7 @@ export default function Home() {
           <button
             className="bg-[#111820] hover:bg-[#36363D] duration-300 text-white flex items-center gap-2 px-4 py-2 rounded-lg"
             onClick={() => {
-              window.location.href = "/omni/i";
+              window.location.href = "https://www.guilded.gg/b/ff8e81bc-1a75-4a7c-8c59-4bca19f0b00f";
             }}
           >
             <Image
