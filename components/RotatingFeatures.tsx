@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback, JSX } from "react";
-import { Award, Instagram, Users, Zap, Shield, Bell } from "lucide-react";
+import { Award, Users, Zap, Shield, Bell } from "lucide-react";
 
 import { clsx, ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
